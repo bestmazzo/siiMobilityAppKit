@@ -14,10 +14,10 @@
     "captionTextId": "moduleEasyParkMenu",
     "step": "",
     "stepId": "",
-    "ribbon": "",
+    "ribbon": true,
     "ribbonId": "",
-    "ribbonStyle": "",
-    "ribbonText": "",
+    "ribbonStyle": "background: #CC0000;background: linear-gradient(#FF6600 0%, #CC0000 100%);",
+    "ribbonText":  "NEW",
     "removed": false,
     "index": 0
   }

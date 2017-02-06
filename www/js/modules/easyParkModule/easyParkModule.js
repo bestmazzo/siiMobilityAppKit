@@ -25,16 +25,21 @@ var EasyParkModule = {
     expanded: false,
     result: null,
     varName: "EasyParkModule",
-    idMenu: "exampleMenu",
+    idMenu: "easyParkMenu",
 
     refreshMenu: function () {
         if ($("#" + EasyParkModule.idMenu).length == 0) {
             $("#indexPage").append("<div id=\"" + EasyParkModule.idMenu + "\" class=\"commonHalfMenu\"></div>")
         }
-        ViewManager.render(EasyParkModule.results, "#" + EasyParkModule.idMenu, "ExampleMenu");
-        Utility.movingPanelWithTouch("#" + EasyParkModule.idMenu + "ExpandHandler", "#" + EasyParkModule.idMenu);
+        ViewManager.render(EasyParkModule.results, "#" + EasyParkModule.idMenu, "js/modules/easyParkModule/easyParkMenu.mst.html");
+        Utility.movingPanelWithTouch("#" + EasyParkModule.idMenu + "ExpandHandler",
+            "#" + EasyParkModule.idMenu);
+        if (EasyParkModule.expanded) {
+            $("#" + EasyParkModule.idMenu + "Expand").hide();
+        } else {
+            $("#" + EasyParkModule.idMenu + "Collapse").hide();
+        }
     },
-
     show: function () {
         application.resetInterface();
         MapManager.showMenuReduceMap("#" + EasyParkModule.idMenu);

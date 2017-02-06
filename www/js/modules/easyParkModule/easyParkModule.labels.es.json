@@ -1,8 +1,8 @@
 ﻿{
   "principalMenu": {
-    "moduleExampleMenu": "example module"
+    "moduleEasyParkMenu": "Easy Park Module"
   },
-  "exampleMenu": {
-    "title": "Esempio"
+  "easyParkMenu": {
+    "title": "Easy Park"
   }
 }
