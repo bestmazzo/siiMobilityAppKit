@@ -8,6 +8,10 @@
 	font-size: 20px;
 	color: white;
 }
+#infoMenuInner .list-group-item a i.icon{
+    font-size:25px;
+    padding-left:15px;
+}
 </style>
 <div id="service" >
     <div id="infoMenuExpandHandler" class="grippyContainer grippyContainer-horizontal" style="text-align: center;">
@@ -40,20 +44,21 @@
                 
                 <!-- {{^web}} -->
                     <!--{{^wp8}}-->
-                        <a href="#" onclick="InfoManager.share('{{nameEscaped}}{{#typeLabel}}\n {{typeLabel}}{{/typeLabel}}{{#descriptionEscaped}}\n\n {{descriptionEscaped}}{{/descriptionEscaped}}{{#description2Escaped}}\n\n {{description2Escaped}}{{/description2Escaped}}{{#addressEscaped}}\n\n {{addressEscaped}},{{civic}}\n {{cap}} {{city}} ({{province}}){{/addressEscaped}}{{#phone}}\n\n{{phone}}{{/phone}}{{#website}}\n{{website}}{{/website}}{{#email}}\n{{email}}{{/email}}{{#note}}\n\n {{note}}{{/note}}\n\n', '{{nameEscaped}}', '{{#carouselContent.0}}{{photo}}{{/carouselContent.0}}', 'http://www.km4city.org/', 'infoMenu')"><i style="font-size:25px;" class="icon ion-android-share-alt {{currentLanguage}} {{category}}"></i></a>
+                        <a href="#" onclick="InfoManager.share('{{nameEscaped}}{{#typeLabel}}\n {{typeLabel}}{{/typeLabel}}{{#descriptionEscaped}}\n\n {{descriptionEscaped}}{{/descriptionEscaped}}{{#description2Escaped}}\n\n {{description2Escaped}}{{/description2Escaped}}{{#addressEscaped}}\n\n {{addressEscaped}},{{civic}}\n {{cap}} {{city}} ({{province}}){{/addressEscaped}}{{#phone}}\n\n{{phone}}{{/phone}}{{#website}}\n{{website}}{{/website}}{{#email}}\n{{email}}{{/email}}{{#note}}\n\n {{note}}{{/note}}\n\n', '{{nameEscaped}}', '{{#carouselContent.0}}{{photo}}{{/carouselContent.0}}', 'http://www.km4city.org/', 'infoMenu')"><i style="padding-left: 0px;" class="icon ion-android-share-alt {{currentLanguage}} {{category}}"></i></a>
                         <!--<a href="#" onclick="InfoManager.shareFacebook('{{nameEscaped}}{{#typeLabel}}\n {{typeLabel}}{{/typeLabel}}{{#descriptionEscaped}}\n\n {{descriptionEscaped}}{{/descriptionEscaped}}{{#description2Escaped}}\n\n {{description2Escaped}}{{/description2Escaped}}{{#addressEscaped}}\n\n {{addressEscaped}},{{civic}}\n {{cap}} {{city}} ({{province}}){{/addressEscaped}}{{#phone}}\n\n{{phone}}{{/phone}}{{#website}}\n{{website}}{{/website}}{{#email}}\n{{email}}{{/email}}{{#note}}\n\n {{note}}{{/note}}\n\n', '{{#carouselContent.0}}{{photo}}{{/carouselContent.0}}', 'http://www.km4city.org/', 'infoMenu')"><i style="font-size:25px;padding-left:15px;" class="icon ion-social-facebook {{currentLanguage}} {{category}}"></i></a>-->
                         <!--{{/wp8}}-->
                         <!--{{#wp8}}-->
-                        <a href="#" onclick="InfoManager.share('{{nameEscaped}}{{#typeLabel}}\n {{typeLabel}}{{/typeLabel}}{{#descriptionEscaped}}\n\n {{descriptionEscaped}}{{/descriptionEscaped}}{{#description2Escaped}}\n\n {{description2Escaped}}{{/description2Escaped}}{{#addressEscaped}}\n\n {{addressEscaped}},{{civic}}\n {{cap}} {{city}} ({{province}}){{/addressEscaped}}{{#phone}}\n\n{{phone}}{{/phone}}{{#website}}\n{{website}}{{/website}}{{#email}}\n{{email}}{{/email}}{{#note}}\n\n {{note}}{{/note}}\n\n http://www.km4city.org/', '{{nameEscaped}}', null, null, 'infoMenu')"><i style="font-size:25px;" class="icon ion-android-share-alt {{currentLanguage}} {{category}}"></i></a>
+                        <a href="#" onclick="InfoManager.share('{{nameEscaped}}{{#typeLabel}}\n {{typeLabel}}{{/typeLabel}}{{#descriptionEscaped}}\n\n {{descriptionEscaped}}{{/descriptionEscaped}}{{#description2Escaped}}\n\n {{description2Escaped}}{{/description2Escaped}}{{#addressEscaped}}\n\n {{addressEscaped}},{{civic}}\n {{cap}} {{city}} ({{province}}){{/addressEscaped}}{{#phone}}\n\n{{phone}}{{/phone}}{{#website}}\n{{website}}{{/website}}{{#email}}\n{{email}}{{/email}}{{#note}}\n\n {{note}}{{/note}}\n\n http://www.km4city.org/', '{{nameEscaped}}', null, null, 'infoMenu')"><i style="padding-left:0px;" class="icon ion-android-share-alt {{currentLanguage}} {{category}}"></i></a>
                         <!--{{/wp8}}-->
-                        <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();PictureManager.pickPhotoFromAlbum('{{serviceUri}}')"><i style="font-size:25px;padding-left:15px;" class="icon ion-images {{currentLanguage}} {{category}}"></i></a>
-                        <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();PictureManager.takePhoto('{{serviceUri}}')"><i style="font-size:25px;padding-left:15px;" class="icon ion-camera {{currentLanguage}} {{category}}"></i></a>
+                        <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();PictureManager.pickPhotoFromAlbum('{{serviceUri}}')"><i class="icon ion-images {{currentLanguage}} {{category}}"></i></a>
+                        <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();PictureManager.takePhoto('{{serviceUri}}')"><i class="icon ion-camera {{currentLanguage}} {{category}}"></i></a>
                 <!-- {{/web}} -->
                 <!-- {{#web}}-->
-                <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();FeedbackManager.showModal('{{serviceUri}}')"><i style="font-size:25px;padding-left:15px;" class="icon ion-images {{currentLanguage}} {{category}}"></i></a>
+                <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();FeedbackManager.showModal('{{serviceUri}}')"><i class="icon ion-images {{currentLanguage}} {{category}}"></i></a>
                 <!-- {{/web}}-->
-               <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();FeedbackManager.showModal('{{serviceUri}}')"><i style="font-size:25px;padding-left:15px;" class="icon ion-chatbox {{currentLanguage}} {{category}}"></i></a>
-             </li>
+               <a href="#" onclick="InfoManager.collapseInfoAboutOneMarker();FeedbackManager.showModal('{{serviceUri}}')"><i class="icon ion-chatbox {{currentLanguage}} {{category}}"></i></a>
+               <a href="#" onclick="EasyParkModule.reachLocation({{#geometry}}{{coordinates.1}}, {{coordinates.0}}{{/geometry}})"><i class="icon ion-ios-navigate {{currentLanguage}} {{category}}"></i></a>
+            </li>
             {{#typeLabel}}<li class="list-group-item"><b id="serviceType"><script>$("#serviceType").html(Globalization.labels.infoMenu.type)</script></b>{{#removeUnderscore}}{{typeLabel}}{{/removeUnderscore}}</li>{{/typeLabel}}
             {{#carouselThumb}}
             <li class="list-group-item">

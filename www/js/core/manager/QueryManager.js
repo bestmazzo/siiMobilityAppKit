@@ -68,7 +68,7 @@ var QueryManager = {
         } else {
             QueryManager.profile = QueryManager.defaultProfile;
         }
-        QueryManager.uid = application.uid;
+        QueryManager.uid = application.uid || forge_sha256('cfg');
         QueryManager.uid2 = application.uid2
         QueryManager.appID = application.appID;
         QueryManager.version = application.version;

@@ -1,8 +1,8 @@
 ﻿[
   {
-    "callback": "PrincipalMenu.logPrincipalMenuChoices('discoverCity'); PrincipalMenu.hide(); MapManager.centerMapOnGps();EasyParkModule.successQuery({})",
+    "callback": "PrincipalMenu.hide(); MapManager.centerMapOnGps();SearchManager.search('EasyParkModule')",
     "iconId": "",
-    "iconClass": "glyphicon glyphicon-asterisk",
+    "iconClass": "glyphicon glyphicons-map",
     "iconFontSize": "35px",
     "iconColor": "#660000",
     "imgSrc": "",
