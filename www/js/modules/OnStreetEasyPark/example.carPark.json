@@ -1,0 +1,113 @@
+{
+  "jsonFile": {
+    "Results": {
+      "features": [
+        {
+          "geometry": {
+            "coordinates": [
+              11.871432,
+              43.465286
+            ],
+            "type": "Point"
+          },
+          "id": 2,
+          "type": "Feature",
+          "properties": {
+            "address": "VIA BALDACCIO D’ANGHIARI",
+            "addressEscaped": "VIA BALDACCIO D’ANGHIARI",
+            "android": "true",
+            "avgStars": 0,
+            "cap": "52100",
+            "category": "TransferServiceAndRenting",
+            "city": "Arezzo",
+            "civic": "",
+            "comments": [],
+            "currentLanguage": "eng",
+            "description": "",
+            "description2": "",
+            "description2Escaped": "",
+            "descriptionEscaped": "",
+            "distanceFromGPS": 694394,
+            "distanceFromSearchCenter": 21503,
+            "distanceFromSomething": true,
+            "email": "",
+            "fax": "",
+            "identifier": 2,
+            "imgsrc": "img/mapicons/eng/TransferServiceAndRenting_Car_park.png",
+            "linkDBpedia": [],
+            "multimedia": "",
+            "name": "baldaccio",
+            "nameEscaped": "baldaccio",
+            "note": "",
+            "phone": "",
+            "photoOrigs": [],
+            "photoThumbs": [],
+            "photos": [],
+            "province": "AR",
+            "realtimeAttributes": {
+              "carParkStatus": {
+                "data_type": "string",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_status",
+                "value_unit": ""
+              },
+              "exitRate": {
+                "data_type": "float",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_exit_rate",
+                "value_unit": "car/h"
+              },
+              "fillRate": {
+                "data_type": "float",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_fill_rate",
+                "value_unit": "car/h"
+              },
+              "free": {
+                "data_type": "integer",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_free_places",
+                "value_unit": "#"
+              },
+              "occupied": {
+                "data_type": "integer",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_occupied_places",
+                "value_unit": "#"
+              },
+              "parkOccupancy": {
+                "data_type": "integer",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_occupancy",
+                "value_unit": "#"
+              },
+              "validityStatus": {
+                "data_type": "integer",
+                "healthiness_criteria": "refresh_rate",
+                "value_refresh_rate": "1200",
+                "value_type": "car_park_validity_status",
+                "value_unit": "#"
+              }
+            },
+            "serviceType": "TransferServiceAndRenting_Car_park",
+            "serviceUri": "http://www.disit.org/km4city/resource/AR051FSPK050005_PO",
+            "starsCount": 0,
+            "subCategory": "Car_park",
+            "typeLabel": "Car park",
+            "userStars": 0,
+            "website": "",
+            "wktGeometry": ""
+          }
+        }
+      ],
+      "fullCount": 1,
+      "type": "FeatureCollection"
+    }
+  }
+}

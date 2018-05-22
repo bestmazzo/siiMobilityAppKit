@@ -1,0 +1,16 @@
+﻿{
+  "principalMenu": {
+    "moduleCmswEasyParkSearcher": "Liste Easy Park"
+  },
+  "cmswEasyParkMenu": {
+    "title": "Easy Park",
+    "gpsOrderText": "Plus près <i class=\"glyphicon glyphicon-record\">",
+    "searchCenterOrderText": "Plus près <i class=\"glyphicon glyphicon-map-marker\">",
+    "freeParkingOrderText":  "Parking Disponible"
+  },
+  "cmswEasyParkLabels": {
+    "freeParkingLots": "Places libres: ",
+    "capacity": "Capacité: ",
+    "updating": "Dernière mise à jour: "
+  }
+}
